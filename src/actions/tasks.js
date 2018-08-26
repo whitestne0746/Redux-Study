@@ -1,5 +1,4 @@
 export const inputTask = (task) => {
-  console.log(task)
   return {
     type: 'INPUT_TASK',
     payload: {

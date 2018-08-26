@@ -1,4 +1,4 @@
-import connect from 'react-redux';
+import { connect } from 'react-redux';
 import TodoApp from '../components/TodoApp';
 import { inputTask, addTask } from '../actions/tasks';
 

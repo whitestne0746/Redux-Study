@@ -11,7 +11,6 @@ export default function tasksReducer(state = initialState, action) {
         task: action.payload.task
       };
     case 'ADD_TASK':
-      console.log('test')
       return {
         ...state,
         tasks: state.tasks.concat([action.payload.task])
