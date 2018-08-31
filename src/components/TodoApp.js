@@ -9,7 +9,7 @@ import List, { ListItem, ListItemText } from 'material-ui/List';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import './TodoApp.css';
 
-export default function TodoApp({ task, tasks, inputTask, addTask }) {
+export default function TodoApp({task, tasks, inputTask, addTask}) {
   return (
     <div>
       <Reboot />
